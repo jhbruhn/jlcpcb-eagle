@@ -1,7 +1,7 @@
 {
     "author": {
-        "email": "x@brainrapers.org",
-        "name": "OXullo Intersecans"
+        "email": "jh.bruhn@me.com",
+        "name": "Jan-Henrik Bruhn"
     },
     "description": {
         "EN": "JLCPCB 2 Layers CAM job"
@@ -136,7 +136,8 @@
                     "filename_format": "%PREFIX/silkscreen_top.gto",
                     "layers": [
                         21,
-                        25
+                        25,
+                        200
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -153,7 +154,8 @@
                     "filename_format": "%PREFIX/silkscreen_bottom.gbo",
                     "layers": [
                         22,
-                        26
+                        26,
+                        52
                     ],
                     "milling": false,
                     "name": "Silkscreen Bottom",
@@ -215,7 +217,7 @@
             ]
         }
     ],
-    "timestamp": "2019-09-21T18:34:01",
+    "timestamp": "2020-07-05T23:22:18",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
